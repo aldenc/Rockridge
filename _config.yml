@@ -23,8 +23,6 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This page is for sharing information about the Rockridge Trapezoid community engagement process
 
-hide_site_feed_link: true
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
