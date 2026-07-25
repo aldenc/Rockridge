@@ -1,62 +1,4 @@
-title: Rockridge Trapezoid Community Hub
-author:
-  name: 
-  email: your-email@domain.com
 
-description: >
-  This page is for sharing information about the Rockridge Trapezoid community engagement process
-
-
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
-
-minima:
-  # Minima skin selection. Available skins are:
-  #   Available skins:
-  #     * classic            Default, light color scheme.
-  #     * dark               Dark variant of the classic skin.
-  #     * auto               Adaptive skin based on the default classic and dark skins.
-  #     * solarized-light    Light variant of solarized color scheme.
-  #     * solarized-dark     Dark variant of solarized color scheme.
-  #     * solarized          Adaptive skin for solarized color scheme skins.
-  skin: classic
-
-  # Specific pages for site navigation.
-  #   If you wish to link only specific pages in the site-navigation, use this and list
-  #   the `path` property (as represented via Liquid) of the pages in the order they
-  #   should be rendered.
-  nav_pages:
-    - about.md
-
-  # Set to `true` to show excerpts on the homepage.
-  show_excerpts: true
-
-  # Minima date format.
-  #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
-  #   Refer to https://shopify.github.io/liquid/filters/date/ for valid values.
-  # date_format: "%b-%d-%Y"
-
-  # Social Media Links
-  #   Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
-  #   Entry keys:
-  #     * title    Tooltip rendered on hovering over icon.
-  #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
-  #     * url      Full URL of social profile.
-  # social_links:
-    - title: Minima Theme repository at GitHub
-      icon: github
-      url: "https://github.com/jekyll/minima"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
@@ -75,18 +17,18 @@ minima:
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#title: Rockridge Trapezoid Community Site
-#email: your-email@example.com
+title: Rockridge Trapezoid Community Site
+email: your-email@example.com
 3description: >- # this means to ignore newlines until "baseurl:"
   This page is for sharing information about the Rockridge Trapezoid community engagement process
 
 # baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-#theme: minima
-#plugins:
-#  - jekyll-feed
+ Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
 #minima:
   # Minima skin selection. Available skins are:
@@ -106,8 +48,8 @@ minima:
  # nav_pages:
  #   - about.md
 
-  # Set to `true` to show excerpts on the homepage.
-  #show_excerpts: false
+  Set to `true` to show excerpts on the homepage.
+  show_excerpts: true
 
   # Minima date format.
   #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
@@ -122,7 +64,7 @@ minima:
   #     * url      Full URL of social profile.
   # social_links:
 
-#  hide_site_feed_link: true
+hide_site_feed_link: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
