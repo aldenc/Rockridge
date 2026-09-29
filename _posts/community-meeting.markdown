@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Community Meeting October 26th"
+date:   2026-09-29
+categories: jekyll update
 ---
 
 We invite you to join your neighbors in a discussion about traffic in the Rockridge Trapezoid (the neighborhood enclosed by Alcatraz, College, Telegraph and Claremont) at 6:30pm on Monday, October 26th at the College Avenue Presbyterian Church (5951 College Ave). 
